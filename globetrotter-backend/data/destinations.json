@@ -1,0 +1,127 @@
+[
+    {
+      "city": "Paris",
+      "country": "France",
+      "clues": [
+        "Home to a famous tower that sparkles at night.",
+        "Known as the City of Love.",
+        "Has a museum with a smiling woman painted by Da Vinci.",
+        "A river called the Seine runs through it.",
+        "Famous for its flaky, buttery croissants."
+      ],
+      "funFacts": [
+        "The Eiffel Tower grows taller in summer due to heat expansion.",
+        "Paris has the most Michelin-star restaurants in the world.",
+        "There is only one stop sign in the entire city.",
+        "The Louvre Museum is the most visited museum globally.",
+        "The Paris Metro is one of the oldest underground transit systems."
+      ],
+      "trivia": [
+        "Which Paris landmark was originally criticized as an eyesore? (Answer: Eiffel Tower)",
+        "What is the name of the famous cabaret in Paris? (Answer: Moulin Rouge)",
+        "Which river flows through Paris? (Answer: Seine)",
+        "What is the name of the palace that was once the residence of French kings? (Answer: Palace of Versailles)",
+        "Which Parisian cathedral caught fire in 2019? (Answer: Notre-Dame Cathedral)"
+      ]
+    },
+    {
+      "city": "Kyoto",
+      "country": "Japan",
+      "clues": [
+        "Once the capital of an island nation known for cherry blossoms.",
+        "Home to thousands of torii gates at a famous shrine.",
+        "Known for geishas and traditional wooden teahouses.",
+        "A bamboo forest here is a popular tourist attraction.",
+        "Famous for its matcha green tea and kaiseki cuisine."
+      ],
+      "funFacts": [
+        "Kyoto has over 2,000 temples and shrines.",
+        "The city was originally spared from bombing in WWII to preserve its cultural heritage.",
+        "It is home to Japan’s oldest university, Kyoto University.",
+        "The Fushimi Inari Shrine has over 10,000 red torii gates.",
+        "Kyoto-style ramen is distinct from other regional ramen styles in Japan."
+      ],
+      "trivia": [
+        "Which famous shrine in Kyoto has thousands of vermilion torii gates? (Answer: Fushimi Inari Shrine)",
+        "What traditional Japanese performance art is Kyoto known for? (Answer: Kabuki)",
+        "Which district in Kyoto is famous for geishas? (Answer: Gion)",
+        "What is Kyoto’s famous wooden temple that offers breathtaking views? (Answer: Kiyomizu-dera)",
+        "What type of tea is Kyoto particularly known for? (Answer: Matcha)"
+      ]
+    },
+    {
+      "city": "New York City",
+      "country": "USA",
+      "clues": [
+        "Known as 'The Big Apple'.",
+        "Has a park bigger than Monaco in the middle of the city.",
+        "Famous for a green lady holding a torch.",
+        "Its subway system is one of the largest in the world.",
+        "A place where people watch a ball drop every New Year's Eve."
+      ],
+      "funFacts": [
+        "Times Square was originally called Longacre Square.",
+        "The Statue of Liberty was a gift from France.",
+        "New York City was once the capital of the United States.",
+        "Central Park is entirely man-made.",
+        "Broadway theaters sell over 12 million tickets annually."
+      ],
+      "trivia": [
+        "What was the original name of Times Square? (Answer: Longacre Square)",
+        "Which landmark was a gift from France? (Answer: Statue of Liberty)",
+        "Which NYC borough is the largest by area? (Answer: Queens)",
+        "What famous NYC street is known for theater? (Answer: Broadway)",
+        "Where do people gather in NYC to celebrate New Year's Eve? (Answer: Times Square)"
+      ]
+    },
+    {
+      "city": "Machu Picchu",
+      "country": "Peru",
+      "clues": [
+        "An ancient Incan city located high in the Andes Mountains.",
+        "Often called 'The Lost City of the Incas'.",
+        "Discovered in 1911 by an American explorer.",
+        "Surrounded by lush green peaks and misty clouds.",
+        "A UNESCO World Heritage Site and one of the New Seven Wonders of the World."
+      ],
+      "funFacts": [
+        "Machu Picchu was never found by Spanish conquistadors.",
+        "Llamas are commonly seen wandering the ruins.",
+        "The site is located at nearly 8,000 feet above sea level.",
+        "Many stones used in the construction were precisely cut without mortar.",
+        "Machu Picchu is aligned with the solstices."
+      ],
+      "trivia": [
+        "Which civilization built Machu Picchu? (Answer: The Incas)",
+        "Who is credited with rediscovering Machu Picchu in 1911? (Answer: Hiram Bingham)",
+        "What is the closest major city to Machu Picchu? (Answer: Cusco)",
+        "Which animal is often seen at Machu Picchu? (Answer: Llama)",
+        "Machu Picchu is in which mountain range? (Answer: The Andes)"
+      ]
+    },
+    {
+      "city": "Cairo",
+      "country": "Egypt",
+      "clues": [
+        "Home to the last remaining Wonder of the Ancient World.",
+        "A major city located along the Nile River.",
+        "Famous for a mythical creature with the body of a lion and the head of a human.",
+        "A bustling metropolis known as the 'Mother of the World'.",
+        "Houses one of the most important museums for ancient artifacts."
+      ],
+      "funFacts": [
+        "The Pyramids of Giza were once covered in smooth limestone.",
+        "The Great Pyramid was the tallest man-made structure for over 3,800 years.",
+        "Cairo has the largest population of any city in Africa.",
+        "Egyptians invented one of the first known writing systems, hieroglyphics.",
+        "Cairo’s Tahrir Square has been the center of many historical events."
+      ],
+      "trivia": [
+        "Which ancient wonder is located near Cairo? (Answer: The Great Pyramid of Giza)",
+        "Which river runs through Cairo? (Answer: The Nile)",
+        "What mythical creature guards the pyramids? (Answer: The Sphinx)",
+        "What is the name of Cairo’s main ancient artifacts museum? (Answer: The Egyptian Museum)",
+        "Cairo is the capital of which country? (Answer: Egypt)"
+      ]
+    }
+] 
