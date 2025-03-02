@@ -59,6 +59,7 @@ UserSchema.methods.addToHistory = function(destinationId, correct) {
 // Method to get public user profile
 UserSchema.methods.getPublicProfile = function() {
   return {
+    id: this._id,
     username: this.username,
     score: this.score,
     createdAt: this.createdAt

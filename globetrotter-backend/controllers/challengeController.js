@@ -4,24 +4,24 @@ const User = require('../models/User');
 // Create a new challenge
 exports.createChallenge = async (req, res) => {
   try {
-    const { userId } = req.body;
+    const { creatorId } = req.body;
     
     // Validate request body
-    if (!userId) {
+    if (!creatorId) {
       return res.status(400).json({
         message: 'User ID is required'
       });
     }
     
     // Check if user exists
-    const user = await User.findById(userId);
+    const user = await User.findById(creatorId);
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
     }
     
     // Create new challenge
     const challenge = new Challenge({
-      creatorId: userId
+      creatorId: creatorId
     });
     
     await challenge.save();
