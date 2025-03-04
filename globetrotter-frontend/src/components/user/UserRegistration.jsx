@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { createUser } from '../../services/userService';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useUser } from '../../contexts/UserContext';
 import Card from '../common/Card';
 import Button from '../common/Button';
 import ErrorMessage from '../common/ErrorMessage';
+import { createUser } from '../../services/userService';
 
 const UserRegistration = () => {
   const [username, setUsername] = useState('');
@@ -12,6 +12,7 @@ const UserRegistration = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { login } = useUser();
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,7 +28,19 @@ const UserRegistration = () => {
     try {
       const user = await createUser(username);
       login(user);
-      navigate('/game');
+
+      // Extract accessCode from query parameters
+      const queryParams = new URLSearchParams(location.search);
+      const accessCode = queryParams.get('accessCode');
+
+      console.log('UserRegistration:', { user, accessCode});
+
+      // Navigate based on the presence of accessCode
+      if (accessCode) {
+        navigate(`/challenge/${accessCode}`);
+      } else {
+        navigate('/game');
+      }
     } catch (err) {
       if (err.response && err.response.data) {
         setError(err.response.data.message);

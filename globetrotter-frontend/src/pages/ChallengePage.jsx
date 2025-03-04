@@ -23,8 +23,8 @@ const ChallengePage = () => {
         const challengeData = await getChallenge(accessCode);
         setChallenge(challengeData);
         
-        if (challengeData.creatorId) {
-          const creatorData = await getUserByUsername(challengeData.creatorUsername);
+        if (challengeData.creator.id) {
+          const creatorData = await getUserByUsername(challengeData.creator.username);
           setCreator(creatorData);
         }
       } catch (err) {
@@ -95,7 +95,7 @@ const ChallengePage = () => {
             
             {!user && (
               <div className="mt-4">
-                <Link to="/register">
+                <Link to={`/register?accessCode=${accessCode}`}>
                   <Button>Sign Up to Accept Challenge</Button>
                 </Link>
               </div>
