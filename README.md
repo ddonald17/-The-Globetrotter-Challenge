@@ -31,3 +31,6 @@ Frontend: React.js, Tailwind CSS, React Router
 Backend: Node.js, Express.js, MongoDB (Mongoose)
 
 Deployment: Render
+
+Video Demo - https://drive.google.com/file/d/1FiF52IeFC4qfMs4BHZaw-XoPNqympRbP/view?usp=drive_link
+Check this out - https://the-globetrotter-challenge-lt1n.onrender.com
