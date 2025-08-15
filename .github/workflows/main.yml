@@ -3,7 +3,7 @@ name: Keep Render Service Awake
 on:
   schedule:
     # Every 15 minutes
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch: # lets you manually trigger it too
 
 jobs:
